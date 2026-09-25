@@ -18,7 +18,7 @@
 | Unique defects logged | 24 |
 | Defect severity split | 13 Major · 9 Minor · 2 Trivial |
 
-Pass rate held consistent (91–95%) across every priority tier — defects were spread across the application rather than concentrated in one area. Full breakdown in the [Test Summary Report](./09-Test-Summary-Report).
+Pass rate held consistent (91–95%) across every priority tier — defects were spread across the application rather than concentrated in one area. Full breakdown in the [Test Summary Report](./09-Test-Summary-Report.docx).
 
 ---
 
@@ -26,15 +26,15 @@ Pass rate held consistent (91–95%) across every priority tier — defects were
 
 | # | Artifact | Description |
 |---|---|---|
-| 1 | [Project Introduction](./01-Project-Introduction) | Scope, objective, approach, severity/priority scheme |
-| 2 | [Understanding & Exploring the Functionality](./02-Understanding-Functionality) | FRS-style notes from exploring the app before test design |
-| 3 | [Test Plan](./03-Test-Plan) | Strategy, schedule, roles, risks, entry/exit criteria |
-| 4 | [Test Scenarios](./04-Test-Scenarios) | 31 high-level scenarios, each prioritized P0–P4 |
-| 5 | [Test Cases](./05-Test-Cases) | 516 detailed test cases derived from the scenarios |
-| 6 | [Requirement Traceability Matrix (RTM)](./06-RTM) | Maps every requirement → scenario → test case(s) |
-| 7 | [Test Execution Report](./07-Test-Execution) | Pass/Fail status and actual result for all 516 cases |
-| 8 | [Bug Report](./08-Bug-Report) | 24 defects with repro steps, expected vs. actual, severity & priority |
-| 9 | [Test Summary & Closure Report](./09-Test-Summary-Report) | Final metrics, defect summary, exit criteria, sign-off |
+| 1 | [Project Introduction](./01-Project-Introduction.docx) | Scope, objective, approach, severity/priority scheme |
+| 2 | [Understanding & Exploring the Functionality](./02-Understanding-Functionality.docx) | FRS-style notes from exploring the app before test design |
+| 3 | [Test Plan](./03-Test-Plan.docx) | Strategy, schedule, roles, risks, entry/exit criteria |
+| 4 | [Test Scenarios](./04-Test-Scenarios.xlsx) | 31 high-level scenarios, each prioritized P0–P4 |
+| 5 | [Test Cases](./05-Test-Cases.xlsx) | 516 detailed test cases derived from the scenarios |
+| 6 | [Requirement Traceability Matrix (RTM)](./06-RTM.xlsx) | Maps every requirement → scenario → test case(s) |
+| 7 | [Test Execution Report](./07-Test-Execution.xlsx) | Pass/Fail status and actual result for all 516 cases |
+| 8 | [Bug Report](./08-Bug-Report.xlsx) | 24 defects with repro steps, expected vs. actual, severity & priority |
+| 9 | [Test Summary & Closure Report](./09-Test-Summary-Report.docx) | Final metrics, defect summary, exit criteria, sign-off |
 
 Each failed test case is cross-referenced to its defect ID, and every defect traces back to the test case(s) that found it — a closed loop from requirement to defect.
 
@@ -50,7 +50,7 @@ Each failed test case is cross-referenced to its defect ID, and every defect tra
 | BUG-8 | Major | Adding the same product twice creates a duplicate cart line instead of merging quantities |
 | BUG-20 | Major | Reward Points balance after redemption doesn't always match the amount applied at checkout |
 
-*(Screenshots for these defects are in [/screenshots](./screenshots).)*
+*(Full repro steps, expected vs. actual results, and severity/priority for every defect are in the [Bug Report](./08-Bug-Report.xlsx).)*
 
 ---
 
@@ -71,4 +71,4 @@ OpenCart Admin back-office panel · performance/load testing · automated test s
 
 This was built independently — outside of any employer or client engagement — to practice and demonstrate a complete manual testing lifecycle for a QA portfolio. Full context and rationale for every decision (scope, entry/exit criteria, risk mitigation) is documented in the [Test Plan](./03-Test-Plan).
 
-**Contact:** [your email / LinkedIn link here]
+**Contact:** [linkedin.com/in/tanvir-ahmed-b88836365](https://www.linkedin.com/in/tanvir-ahmed-b88836365/)
